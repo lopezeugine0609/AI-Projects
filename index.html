@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Projects Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="wrapper">
+      <p class="eyebrow">AI Project Portfolio</p>
+      <h1>AI Projects Workspace</h1>
+      <p class="description">
+        A showcase of AI experiments and production-ready Python projects: sentiment classification, workflow automation, and welding defect detection.
+      </p>
+      <div class="buttons">
+        <a class="button primary" href="#projects">Explore Projects</a>
+        <a class="button secondary" href="README.md">Repository README</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrapper" id="projects">
+    <section class="section intro">
+      <h2>Projects Included</h2>
+      <p>
+        This portfolio aggregates the repository's distinct AI projects with links to documentation, code, and deployment guidance.
+      </p>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <h3>AI Sentiment Classifier</h3>
+        <p>
+          A Python sentiment analysis project using a classic ML pipeline, trained on synthetic reviews and exposed through a CLI.
+        </p>
+        <ul>
+          <li>TF-IDF preprocessing</li>
+          <li>Logistic regression model</li>
+          <li>Training, prediction, tests, and docs</li>
+        </ul>
+        <a href="ai-sentiment-classifier/README.md">View project</a>
+      </article>
+
+      <article class="card">
+        <h3>AI Automation Toolkit</h3>
+        <p>
+          An automation project that turns natural task intents into sequenced plans, with optional LLM support and a CLI interface.
+        </p>
+        <ul>
+          <li>Rule-based and optional OpenAI planning</li>
+          <li>Task workflow simulation</li>
+          <li>Test coverage and documentation</li>
+        </ul>
+        <a href="ai-automation/README.md">View project</a>
+      </article>
+
+      <article class="card">
+        <h3>Welding Defect Classification</h3>
+        <p>
+          A deep learning CNN project for defect detection with synthetic weld imagery, training, inference, and notebook exploration.
+        </p>
+        <ul>
+          <li>Grayscale weld defect images</li>
+          <li>TensorFlow CNN training</li>
+          <li>Notebook, docs, and tests</li>
+        </ul>
+        <a href="ai_welding_defects/README.md">View project</a>
+      </article>
+    </section>
+
+    <section class="section deploy">
+      <h2>Deployable Portfolio</h2>
+      <p>
+        This static page is ready for deployment to GitHub Pages, Azure Static Web Apps, or any static web host.
+      </p>
+      <ol>
+        <li>Ensure `index.html` and `styles.css` are in the repository root.</li>
+        <li>Enable GitHub Pages from the repository settings using the root branch.</li>
+        <li>Optionally add a CI workflow for build validation.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built for the AI Projects repository. Deploy as a static portfolio with GitHub Pages.</p>
+  </footer>
+</body>
+</html>

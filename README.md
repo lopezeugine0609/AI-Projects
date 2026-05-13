@@ -28,6 +28,16 @@ This repository contains multiple AI-focused Python projects organized as separa
 3. Install the project dependencies with `pip install -r requirements.txt`.
 4. Follow the project-specific README and `docs/` files.
 
+## Portfolio Landing Page
+
+A deployable portfolio page is available at `index.html` in the repository root. It is ready for GitHub Pages or any static site host.
+
+To deploy on GitHub Pages:
+
+1. Push this repository to GitHub.
+2. Enable GitHub Pages in the repository settings using the `main` or `master` branch.
+3. Select the root directory as the source.
+
 ## New Automation Project
 
 The new `ai-automation/` project is designed to demonstrate a reusable AI automation pattern with:
