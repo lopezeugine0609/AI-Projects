@@ -7,8 +7,8 @@ This repository contains multiple AI-focused Python projects organized as separa
 - `ai-sentiment-classifier/`
   - A movie review sentiment classification project with training, prediction, and documentation.
 - `ai-automation/`
-  - A new AI automation toolkit project with task planning, simulated execution, and CLI usage.
-- `ai_welding_defects/`
+  - A new AI automation toolkit project with task planning, simulated execution, and CLI usage.- `ghl_n8n_leads/`
+  - A GHL/n8n lead automation suite modeling FieldRoutes, CallGear, CallRail, and meta lead routing.- `ai_welding_defects/`
   - A welding defect image classification project with CNN training, synthetic data, and defect detection docs.
 
 ## Repository Structure
@@ -17,6 +17,7 @@ This repository contains multiple AI-focused Python projects organized as separa
 - `docs/` — workspace-level documentation for project architecture and new automation features.
 - `ai-sentiment-classifier/` — existing AI sentiment classifier project.
 - `ai-automation/` — new AI automation project.
+- `ghl_n8n_leads/` — new GHL/n8n lead automation project.
 - `ai_welding_defects/` — new welding defect classification project.
 - `.env` — environment variables and secret values (ignored by Git).
 - `.gitignore` — repository ignore rules.

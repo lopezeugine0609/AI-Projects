@@ -9,7 +9,10 @@ This workspace holds multiple AI projects in a shared repository layout.
   - Includes model training, prediction, and documentation.
 - `ai-automation/`
   - AI automation toolkit that generates task plans and simulates workflow execution.
-  - Includes a CLI, optional LLM integration, and documentation.
+  - Includes a CLI, optional OpenAI integration, and documentation.
+- `ghl_n8n_leads/`
+  - Lead automation suite for GoHighLevel and n8n workflows with FieldRoutes, CallGear, CallRail, and meta routing.
+  - Includes project docs, CLI simulations, and tests.
 - `ai_welding_defects/`
   - Welding defect image classification using a CNN and synthetic image generation.
   - Includes training, inference, a Jupyter notebook, and comprehensive docs.

@@ -11,4 +11,6 @@ ai-automation/.venv
 ai_welding_defects/.venv
 ai_welding_defects/models/
 ai_welding_defects/.ipynb_checkpoints/
+# GHL/n8n lead automation project artifacts
+ghl_n8n_leads/.venv
 
