@@ -4,13 +4,13 @@ This workspace holds multiple AI projects in a shared repository layout.
 
 ## Projects
 
-- `va_client_intake_agent/`
-  - VA client intake assistant for US small businesses.
+- `lead_intake_automation/`
+  - Lead intake automation for service businesses with inconsistent inquiry handling.
   - Includes lead scoring, pain point detection, package recommendation, CRM payloads, response drafts, docs, CLI, and tests.
-- `va_inbox_triage_copilot/`
-  - Inbox triage copilot for classifying emails, assigning SLA priority, extracting tasks, and drafting replies.
+- `inbox_triage_automation/`
+  - Inbox triage automation for classifying emails, assigning SLA priority, extracting tasks, and drafting replies.
   - Includes daily digest logic, docs, CLI, and tests.
-- `va_meeting_action_tracker/`
+- `meeting_action_tracker/`
   - Meeting action tracker that converts transcripts into decisions, owners, due dates, task payloads, and follow-up emails.
   - Includes docs, CLI, and tests.
 - `ai-sentiment-classifier/`
@@ -34,7 +34,7 @@ This workspace holds multiple AI projects in a shared repository layout.
 - Keep each project self-contained with its own `README.md`, `requirements.txt`, and `docs/` folder.
 - Use separate virtual environments for each project.
 - Document architecture, usage, and contribution steps within each project.
-- For US VA portfolio work, describe business outcomes first: speed, follow-up reliability, lead conversion, and fewer missed tasks.
+- For portfolio work, describe the real problem first, then the automation solution and measurable operational outcome.
 
 ## How to Use
 

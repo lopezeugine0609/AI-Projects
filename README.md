@@ -4,11 +4,11 @@ This repository contains multiple AI-focused Python projects organized as separa
 
 ## Included Projects
 
-- `va_client_intake_agent/`
-  - A VA-focused client intake assistant that scores US business leads, detects pain points, recommends a service package, and drafts a first response.
-- `va_inbox_triage_copilot/`
-  - An inbox operations copilot that classifies emails, assigns SLA priority, extracts tasks, and drafts client-safe replies.
-- `va_meeting_action_tracker/`
+- `lead_intake_automation/`
+  - A lead intake automation project that scores inquiries, detects pain points, recommends next steps, and drafts a first response.
+- `inbox_triage_automation/`
+  - An inbox operations project that classifies emails, assigns SLA priority, extracts tasks, and drafts response-ready replies.
+- `meeting_action_tracker/`
   - A meeting follow-up assistant that turns transcripts into decisions, owner-based action items, due dates, and recap emails.
 - `ai-sentiment-classifier/`
   - A movie review sentiment classification project with training, prediction, and documentation.
@@ -23,10 +23,10 @@ This repository contains multiple AI-focused Python projects organized as separa
 
 - `README.md` — workspace overview and pointers to each project.
 - `docs/` — workspace-level documentation for project architecture and new automation features.
-- `docs/us-va-client-project-roadmap.md` — recommended VA project positioning for US clients.
-- `va_client_intake_agent/` — client intake, lead scoring, and CRM brief project.
-- `va_inbox_triage_copilot/` — inbox triage, SLA, task extraction, and reply draft project.
-- `va_meeting_action_tracker/` — meeting summary, action tracking, and follow-up project.
+- `docs/operations-automation-roadmap.md` — project positioning for real-world operations automation case studies.
+- `lead_intake_automation/` — inquiry intake, lead scoring, and CRM brief project.
+- `inbox_triage_automation/` — inbox triage, SLA, task extraction, and reply draft project.
+- `meeting_action_tracker/` — meeting summary, action tracking, and follow-up project.
 - `ai-sentiment-classifier/` — existing AI sentiment classifier project.
 - `ai-automation/` — new AI automation project.
 - `ghl_n8n_leads/` — new GHL/n8n lead automation project.
@@ -64,12 +64,12 @@ The new `ai-automation/` project is designed to demonstrate a reusable AI automa
 
 See `ai-automation/README.md` and `docs/ai-automation.md` for full details.
 
-## Recommended VA Portfolio Path
+## Recommended Automation Case Study Path
 
-For attracting US clients as a virtual assistant, lead with these projects:
+For presenting yourself as an engineer who solves real operational problems, lead with these projects:
 
-1. `va_client_intake_agent/` — best first impression because it shows faster lead response and professional onboarding.
-2. `va_inbox_triage_copilot/` — best for busy owners who need email, lead, billing, and support messages organized.
-3. `va_meeting_action_tracker/` — best for showing operations discipline after discovery calls and weekly client meetings.
+1. `lead_intake_automation/` — solves slow inquiry handling and inconsistent lead qualification.
+2. `inbox_triage_automation/` — solves overloaded email workflows by turning messages into priorities and tasks.
+3. `meeting_action_tracker/` — solves weak meeting follow-through by turning notes into tracked work.
 
-See `docs/us-va-client-project-roadmap.md` for client niches, positioning, and upgrade ideas.
+See `docs/operations-automation-roadmap.md` for problem framing, positioning, and upgrade ideas.
