@@ -7,4 +7,8 @@ __pycache__/
 .venv/
 # Local automation environment
 ai-automation/.venv
+# Welding defect project artifacts
+ai_welding_defects/.venv
+ai_welding_defects/models/
+ai_welding_defects/.ipynb_checkpoints/
 

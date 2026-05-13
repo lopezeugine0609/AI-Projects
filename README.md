@@ -8,6 +8,8 @@ This repository contains multiple AI-focused Python projects organized as separa
   - A movie review sentiment classification project with training, prediction, and documentation.
 - `ai-automation/`
   - A new AI automation toolkit project with task planning, simulated execution, and CLI usage.
+- `ai_welding_defects/`
+  - A welding defect image classification project with CNN training, synthetic data, and defect detection docs.
 
 ## Repository Structure
 
@@ -15,6 +17,7 @@ This repository contains multiple AI-focused Python projects organized as separa
 - `docs/` — workspace-level documentation for project architecture and new automation features.
 - `ai-sentiment-classifier/` — existing AI sentiment classifier project.
 - `ai-automation/` — new AI automation project.
+- `ai_welding_defects/` — new welding defect classification project.
 - `.env` — environment variables and secret values (ignored by Git).
 - `.gitignore` — repository ignore rules.
 

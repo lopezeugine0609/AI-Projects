@@ -10,6 +10,9 @@ This workspace holds multiple AI projects in a shared repository layout.
 - `ai-automation/`
   - AI automation toolkit that generates task plans and simulates workflow execution.
   - Includes a CLI, optional LLM integration, and documentation.
+- `ai_welding_defects/`
+  - Welding defect image classification using a CNN and synthetic image generation.
+  - Includes training, inference, a Jupyter notebook, and comprehensive docs.
 
 ## Repository Guidelines
 
