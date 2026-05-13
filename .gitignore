@@ -1,1 +1,10 @@
 .env
+# Ignore nested Git metadata for the sentiment classifier project
+ai-sentiment-classifier/.git
+# Local Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+# Local automation environment
+ai-automation/.venv
+
