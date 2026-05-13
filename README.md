@@ -64,12 +64,3 @@ The new `ai-automation/` project is designed to demonstrate a reusable AI automa
 
 See `ai-automation/README.md` and `docs/ai-automation.md` for full details.
 
-## Recommended Automation Case Study Path
-
-For presenting yourself as an engineer who solves real operational problems, lead with these projects:
-
-1. `lead_intake_automation/` — solves slow inquiry handling and inconsistent lead qualification.
-2. `inbox_triage_automation/` — solves overloaded email workflows by turning messages into priorities and tasks.
-3. `meeting_action_tracker/` — solves weak meeting follow-through by turning notes into tracked work.
-
-See `docs/operations-automation-roadmap.md` for problem framing, positioning, and upgrade ideas.
